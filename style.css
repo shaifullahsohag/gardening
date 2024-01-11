@@ -1,0 +1,1077 @@
+/*
+	Theme Name: Garden Walkthrough
+	Theme URI: 
+	Description: A simple wordpress for garden lover.
+	Author: Shaifulla Sohag
+	Author URI: 
+	Version: 1.0
+	Tags: responsive, fixed-width
+	Text Domain: garden
+*/
+
+/* --------------------------------------
+   Web fonts
+   -------------------------------------- */
+   @font-face {
+    font-family:'Arvo';
+    src: url('fonts/arvo/Arvo.eot');
+	src: url('fonts/arvo/Arvo.eot?#iefix') format('embedded-opentype'),
+	url('fonts/arvo/Arvo.woff2') format('woff2'),
+	url('fonts/arvo/Arvo.woff') format('woff'),
+	url('fonts/arvo/Arvo.ttf') format('truetype'),
+	url('fonts/arvo/Arvo.otf') format('opentype'),
+	url('fonts/arvo/Arvo.svg#Arvo') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+/* --------------------------------------
+   Universal CSS Reset
+   -------------------------------------- */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* --------------------------------------
+   CSS Reset
+   -------------------------------------- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* --------------------------------------
+   Start Typography
+   -------------------------------------- */
+   
+/* image responsive */
+img{
+	max-width: 100%;
+	height: auto;
+	border: 0; /*  Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3. */
+}
+
+
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form elements.
+ */
+
+button, input, select, textarea {
+	font-family: sans-serif;
+}
+
+/* --------------------------------------
+   End Typography
+   -------------------------------------- */
+
+   
+/* ==========================================================================
+   Links
+   ========================================================================== */
+ 
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background-color: transparent;
+}
+ 
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+ 
+a:focus {
+	outline: thin dotted;
+}
+ 
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+ 
+a:active,
+a:hover {
+	outline: 0;
+}
+
+/* --------------------------------------
+    Browser Upgrade Prompt
+   -------------------------------------- */
+	    
+.browser_upgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* --------------------------------------
+   Start Global Styles
+   -------------------------------------- */
+
+.float_left{
+	float: left;
+}
+
+.float_right{
+	float: right;
+}
+
+.overflow_hidden{
+	overflow: hidden;
+}
+
+.overflow_visible{
+	overflow: visible;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	transition: all 0.9s ease 0s;
+	background-color: #356618;
+}
+
+.container-fluid{
+	transition: all 0.9s ease 0s;
+}
+
+.align_left{
+	float: left;
+	margin-right: 10px;
+}
+
+.align_center{
+	display: block;
+	margin: 10px auto
+}
+
+.align_right{
+	float: right;
+	margin-left: 10px;
+}
+
+/* --------------------------------------
+   End Global Styles
+   -------------------------------------- */
+
+body {
+	font-family:'Arvo';
+	font-size: 17px;
+	line-height: 1;
+	color: #444;
+}
+
+/* --------------------------------------
+   SITE HEADER
+   -------------------------------------- */
+
+.header_top {
+	background-color: #fff;
+}
+
+.site_logo {
+	float: left;
+	position: relative;
+}
+
+.site_description h2 {
+	padding-top: 20px;
+}
+
+.site_description h2 a{
+	color: #767676;
+}
+
+.site_description h2 a span{
+	color: #60834C;
+}
+
+.site_description p {
+	color: #EFAF63;
+	margin-top: 5px;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-toggle{
+	background-color: #356618;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+.main_navigation {
+	background-color: #193906;
+}
+
+.navbar-nav > li:last-child{
+	border-right: 0;
+}
+
+.navbar-nav > li > a {
+	line-height: 26px;
+	color: #F0F2C9;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:active, .navbar-nav > li > a:focus{
+	color: #fff;
+	background-color: #275C08;
+	outline: 0;
+}
+
+.current_page_item a{
+	color: #fff;
+	background-color: #275C08;
+}
+
+
+/* --------------------------------------
+   CAROUSEL SECTION
+   -------------------------------------- */
+	    
+.carousel-inner .item img{
+	width: 1170px;
+}
+
+
+/* --------------------------------------
+   GARDENING TIPS
+   -------------------------------------- */
+
+.tips_wrapper {
+	padding-top: 40px;
+}
+
+.single_tips {
+	float: left;
+}
+
+.single_tips h3 a{
+	color: #E3E699;
+}
+
+.single_tips h3 a:hover{
+	color: #b9be4a;
+	cursor: pointer;
+}
+
+.single_tips p {
+	color: #DAEAD0;
+}
+
+/* --------------------------------------
+   FEATURED SECTION
+   -------------------------------------- */
+
+.featured_area {
+	background-color: #fff;
+	padding-top: 20px;
+	margin-top: 40px;
+	padding-bottom: 60px;
+}
+
+.featured_area h2 {
+	background-color: #DCE9D4;
+	color: #71724C;
+	padding: 10px 20px;
+	margin: 0 21px 30px 20px;
+	text-transform: uppercase;
+}
+
+.singel_featured_area {
+	padding: 0 16px;
+}
+
+.singel_featured_area figure img {
+	padding-left: 4px;
+}
+
+.singel_featured_area h3 a{
+	color: #366618;
+	text-transform: uppercase;
+	margin-top: 15px;
+	padding-left: 2px;
+	display: block;
+}
+
+.singel_featured_area h3 a:hover{
+	color: #66B833;
+	cursor: pointer;
+}
+
+.singel_featured_area p {
+	color: #969696;
+	padding-left: 2px;
+}
+
+
+/* --------------------------------------
+   WEEKLY TIPS
+   -------------------------------------- */
+	    
+#weekly_tips_wrapper {
+	margin-bottom: 30px;
+}
+
+.weekly_tips_wrapper {
+	background-color: #fff;
+	border-top: 1px solid #000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.weekly_tips_details h3 {
+	background-color: #DCE9D4;
+	color: #71724C;
+	font-size: 22px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.weekly_tips_details ol{
+	list-style-type: decimal;
+}
+
+.weekly_tips_details ol li {
+	color: #4B4B4B;
+}
+
+/* --------------------------------------
+   ABOUT SECTION
+   -------------------------------------- */
+	    
+.about_wrapper , .plants_wrapper, .garden_wrapper, .blog_wrapper, .contact_wrapper{
+	background-color: #FFF;
+	padding: 0 20px 40px 20px;
+}
+
+.about_wrapper h2, .plants_wrapper h2, .garden_wrapper h2, .blog_wrapper h2, .contact_wrapper h2 {
+	color: #366618;
+	text-transform: uppercase;
+}
+
+.about_wrapper img {
+	width: 1170px;
+}
+
+.about_area_content h3 , .single_plant_area h3, .single_garden_area h3{
+	color: #366618;
+	text-transform: uppercase;
+}
+
+.about_area_content p{
+	color: #969696;
+	padding-left: 2px;
+	margin-bottom: 30px;
+}
+
+.about_area_content p:last-child{
+	margin-bottom: 0;
+}
+
+/* --------------------------------------
+   PLANTS SECTION
+   -------------------------------------- */
+
+.single_plant_area, .single_garden_area{
+	overflow: hidden;
+}
+
+.single_plant_area figure img, .single_garden_area figure img{
+	width: 400px;
+}
+
+.single_plant_area p , .single_garden_area p{
+	color: #969696;
+}
+
+/* --------------------------------------
+   BLOG SECTION
+   -------------------------------------- */
+
+.blog_content article p.article_meta_categories span {
+	font-size: 13px;
+	margin-right: -8px;
+	color: #356618;
+}
+
+.blog_content article p.article_meta_categories a{
+	color: #366618;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.blog_content h3{
+	font-size: 17px;
+	line-height: 29px;
+	color: #366618;
+	margin: 10px 0 4px 0;
+	text-transform: uppercase;
+}
+
+.blog_content h3 a {
+	color: #366618;
+	margin: 10px 0 4px 0;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.blog_content h3 a:hover{
+	color: #66b833;
+	cursor: pointer;
+}
+
+.blog_content header{
+	margin-bottom: 20px;
+}
+
+.blog_content header > .article_meta_comment {
+	background-image: url( 'images/comments-base-over.png' );
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	float: right;
+	width: 42px;
+	height: 46px;
+	padding-top: 13px;
+	color: #FFF;
+	background-color: transparent;
+	margin-top: 10px;
+}
+
+.blog_content header > .article_meta_comment:hover{
+	background-image: url( 'images/comments-base-out.png' );
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+}
+
+.blog_content header p.article_meta_author a{
+	color: #366618;
+}
+
+.blog_content header p.article_meta_date span, .blog_content header p.article_meta_author span, .blog_content header p.article_meta_views span{
+	color: #366618;
+	margin-right: 3px;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.blog_content header p.article_meta_categories a:hover , .blog_content header p.article_meta_author a:hover{
+	color: #66b833;
+}
+
+.blog_content article p {
+	color: #969696;
+}
+
+.blog_content article p a.read_more_link{
+	color: #366618;
+}
+
+.blog_content article p a.read_more_link:hover{
+	color: #66b833;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.post_format_quote {
+	background-image: url( 'images/quote-format-icon.png' );
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: right;
+	width: 42px;
+	height: 42px;
+	margin-top: 10px;
+}
+
+.quote_container {
+	background-color: #FAFAFA;
+	box-shadow: 0px 0px 5px #D7D7D7;
+	text-align: center;
+}
+
+.quote_container > blockquote.blockquote-reverse > p{
+	font-style: italic;
+}
+
+#link_format, #quote_format_link, #video_format_link {
+	float: right;
+	width: 42px;
+	height: 42px;
+	margin-top: 10px;
+	border-radius: 30px;
+	background-color: #2B3039;
+	text-align: center;
+	padding-top: 12px;
+	color: #fff;
+}
+
+.link_container{
+	background-color: #FAFAFA;
+	padding: 40px 0;
+	box-shadow: 0px 0px 5px #D7D7D7;
+	text-align: center;	
+}
+
+.video_container iframe{
+	width: 720px;
+	height: 360px;
+	border: 0;
+}
+
+.link_container span a {
+	color: #366618;
+}
+
+.link_container span a:hover{
+	color: #66b833;
+	cursor: pointer;
+}
+
+.articles_nav p.articles_nav_prev {
+	float: left;
+}
+
+.articles_nav p.articles_nav_prev a, .articles_nav p.articles_nav_next a{
+	text-align: center;
+	background-color: #366618;
+	border-radius: 20px;
+	color: #fff;
+}
+
+.articles_nav p.articles_nav_prev a:hover, .articles_nav p.articles_nav_next a:hover{
+	background-color: #66b833;
+}
+
+.articles_nav p.articles_nav_next{
+	float: right;
+}
+
+p.tag_container {
+	border: 1px solid #e4e4e4;
+	border-width: 1px 0;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 30px 0 20px 0;
+	padding: 10px 0 10px 5px;
+}
+
+p.tag_container a {
+	color: #366618;
+	font-size: 11px;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+p.tag_container a:hover, .post_navigation p.single_post_nav a:hover{
+	color: #66b833;
+}
+
+.post_navigation{}
+
+.post_navigation p.single_post_nav{
+	color: #8C8C8C;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.post_navigation p.single_post_nav a{
+	color: #366618;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.article_author {
+	background: #fafafa;
+	border-top: 1px solid #d7d7d7;
+	box-shadow: inset 5px 0 0 #ededed, inset -5px -5px 0px #ededed;
+	padding: 25px 20px;
+}
+
+.article_author h5 {
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: underline;
+	margin-bottom: 3px;
+}
+
+.article_author h5 a{
+	font-size: 12px;
+	line-height: 20px;
+	color: #366618;
+}
+
+.article_author h5 a:hover{
+	color: #66b833;
+}
+
+
+/* --------------------------------------
+   BLOG SIDEBAR
+   -------------------------------------- */
+
+.single_blog_widget {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.post_navigation{
+	margin-bottom: 20px;
+}
+
+.single_blog_widget h3 {
+	background-color: #DCE9D4;
+	color: #71724C;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.single_blog_widget form .form-group input[type="text"] {
+	border-radius: 0;
+	padding: 5px 15px;
+	font-family:'Arvo';
+}
+
+.single_blog_widget form .form-group input[type="text"]:focus{
+	border: 1px solid #8C8C8C;
+}
+
+.single_blog_widget ul li a {
+	color: #8C8C8C;
+	display: block;
+	text-decoration: underline;
+}
+
+.single_blog_widget ul li a:hover{
+	color: #4B4B4F;
+	cursor: pointer;
+}
+
+
+/* SINGLE PAGE COMMENT FORM*/
+
+.comment_area {
+	margin-top: 50px;
+}
+
+.article_add_comments {
+	display: inline-block;
+	float: right;
+	background: transparent url('images/comments-base-out.png') center center no-repeat;
+	width: 42px;
+	height: 46px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 13px;
+	position: relative;
+	bottom: 10px;
+}
+
+.article_add_comments:hover {
+	background: transparent url('images/comments-base-over.png') center center no-repeat;
+	color: #fff;
+}
+
+.comments_list {
+	margin-top: 50px;
+	counter-reset: comment-id;
+}
+
+.comments_list li ol{
+	border-left: 1px dotted #bebebe;
+}
+
+.comments_list li ol li{
+  position: relative;
+}
+
+.comments_list li ol li::before{
+	content: '';
+	width: 16px;
+	height: 16px;
+	border-bottom: 1px dotted #bebebe;
+	position: absolute;
+	left: -32px;
+	top: 40px;
+}
+
+.comments_list li article {
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  box-shadow: 0px 0px 5px #d7d7d7;
+  margin-bottom: 24px;
+}
+
+
+.comments_list li article.by-admin {
+ 	border-color: #bebebe;
+}
+
+.comments_list li article header {
+	border-bottom: 1px solid #f1f1f1;
+	position: relative;
+}
+
+.comments_list li article header span {
+	color: #c9c9c9;
+}
+
+
+.comments_list li article header h5 {
+	margin-bottom: 0;
+	color: #356618;
+}
+
+.comments_list li article header h5 a, .comments_list li article header p a.reply , .comments_list li article header p a.comment-reply-link{
+	color: #356618;
+}
+
+.comments_list li article header p a.reply:hover, .comments_list li article header p a.comment-reply-link:hover{
+	color: #66b833;
+}
+
+.comments_list li article header h5 a:hover{
+	color: #66b833;
+}
+
+.comments_list li article header h5 span {
+	text-transform: uppercase;
+	background: #356618;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.comments_list li article header::before {
+	counter-increment: comment-id;
+	content: counter(comment-id);
+	position: absolute;
+	right: 0;
+	color: #e3e3e3;
+	top: 0px;
+}
+
+.comments_list figure.comment_avatar img {
+	float: right;
+}
+
+.comments_list article p.awaiting_moderation {
+	color: #96B285;
+}
+
+.comments_list article p.actual_comment {
+	color: #969696;
+	font-size: 15px;
+	line-height: 27px;
+}
+
+.comment_area .comments_nav_section {
+	margin: 50px 0;
+}
+
+.comment_area .comments_nav_section p.old_comments{
+	float: left;
+}
+
+.comment_area .comments_nav_section p.old_comments a, .comment_area .comments_nav_section p.new_comments a{
+	color: #96B285;
+}
+
+.comment_area .comments_nav_section p.old_comments a:hover, .comment_area .comments_nav_section p.new_comments a:hover{
+	color: #356618;
+}
+
+.comment_area .comments_nav_section p.new_comments{
+	float: right;
+}
+
+#comment_form p.logged-in-as a{
+	color: #356618;
+}
+
+#comment_form p {
+	color: #356618;
+	font-family: 'Arvo';
+}
+
+#comment_form p label {
+  display: inline;
+  font-size: 12px;
+  font-family: 'Arvo';
+  color: #356618;
+}
+
+#comment_form input[type="text"], #comment_form input[type="url"], #comment_form input[type="email"] {
+	width: 50%;
+	margin: 0 16px 10px 0;
+	height: 40px;
+	background-color: #DCE9D4;
+	border: none;
+	color: #000;
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	font-family: 'Arvo';
+}
+
+#comment_form textarea {
+	width: 100%;
+	background-color: #DCE9D4;
+	color: #000;
+	padding: 5px 0 0 10px;
+	border: none;
+	margin-top: 10px;
+	font-family: 'Arvo';
+	font-size: 14px;
+	line-height: 21px;
+}
+
+#comment_form input[type="submit"] {
+	margin-top: 20px;
+	color: #fff;
+	background-color: #79B84C;
+	font-family: 'Arvo';
+	border-radius: 0;
+	border: none;
+	padding: 10px;
+}
+
+#comment_form input[type="submit"]:focus{
+	background-color: #356618;
+	color: #fff;
+	cursor: pointer;
+}
+
+#respond{}
+
+#respond h3 {
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+
+hr.fancy_hr {
+	box-shadow: 0px 0px 7px #d7d7d7;
+	height: 1px;
+	margin: 40px 0;
+}
+
+
+/* --------------------------------------
+   CONTACT
+   -------------------------------------- */
+  
+.contact_wrapper p {
+	color: #969696;
+}	
+
+.full_contact_area{
+	margin-top: 50px;
+} 
+
+.contact_info_left p{
+	color: #969696;
+} 
+
+.contact_info_left p#address {
+	margin-bottom: 12px;
+	color: #356618;
+	font-weight: bold;
+}
+
+.contact_info_left p span#home_icon {
+	font-size: 20px;
+	margin-right: 7px;
+}
+
+.contact_info_left p span{
+	margin-right: 5px;
+}   
+
+.contact_form_right label {
+	color: #356618;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	letter-spacing: 1px;
+}
+
+.contact_form_right input[type="text"], .contact_form_right input[type="email"] {
+	background-color: #356618;
+	border-radius: 0;
+	font-family:'Arvo';
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.contact_form_right textarea{
+	background-color: #356618;
+	font-family:'Arvo';
+	color: #fff;
+}
+
+.contact_form_right input[type="reset"], .contact_form_right input[type="submit"] {
+	letter-spacing: 1px;
+	background-color: #356618;
+	text-align: center;
+	font-family: 'Arvo';
+	color: #fff;
+	float: right;
+}
+
+.contact_form_right input[type="reset"]:hover, .contact_form_right input[type="submit"]:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+/* --------------------------------------
+   FOOTER
+   -------------------------------------- */
+
+.site_footer_wrapper {
+	background-color: #DCE9D4;
+	margin-top: 30px;
+	padding: 20px 20px;
+}
+
+.singel_footer_widget h3 {
+	color: #366618;
+	text-transform: uppercase;
+	padding-left: 2px;
+}
+
+.singel_footer_widget p{
+	color: #8C8C8C;
+	margin-bottom: 2px;
+}
+
+.singel_footer_widget ul li a {
+	color: #8C8C8C;
+	margin-bottom: 2px;
+	display: block;
+}
+
+.singel_footer_widget ul li a:hover{
+	color: #4B4B4F;
+	cursor: pointer;
+}
+
+ul.social_link li{
+	float: left;
+	margin-right: 5px;
+}
+
+ul.social_link li:last-child{
+	margin-right: 0px;
+}
+
+ul.social_link li a i{
+  background-color: #356618;
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  height: 25px;
+  line-height: 21px;
+  padding: 2px 0;
+  text-align: center;
+  width: 25px;
+}
+
+ul.social_link li a i#linkedin{
+  padding: 1px 0;
+}
+
+ul.social_link li i.fa-facebook:hover{
+	background-color: #3A589B;
+}
+
+ul.social_link li i.fa-twitter:hover{
+	background-color: #00ABF1;
+}
+
+ul.social_link li i.fa-dribbble:hover{
+	background-color: #EA4C89;
+}
+
+ul.social_link li i.fa-youtube:hover{
+	background-color: #CF2200;
+}
+
+ul.social_link li i.fa-linkedin:hover{
+	background-color: #007AB9;
+}
+
+.copyright_info p{
+	padding: 40px 0 5px 0;
+}
+
+.copyright_info p span{
+	color: #fff;
+	cursor: pointer;
+}
+
+.tooltip-inner{
+	font-family:'Arvo';
+	border-radius: 0;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.copyright_info h6 {
+	color: #FFF;
+}
+
+div.wpcf7-mail-sent-ng , div.wpcf7-validation-errors{
+	font-family: 'Avro';
+	border: none;
+	float: right;
+}
+
+span.wpcf7-not-valid-tip {
+	font-family: 'Avro';
+	color: #356618;
+}

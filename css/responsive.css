@@ -1,0 +1,2807 @@
+/* --------------------------------------
+	Extra Small devices (min-width: 240)
+   -------------------------------------- */
+
+@media (min-width: 240px) {
+	
+.container {
+    width: 220px;
+}
+
+
+/*HEADER AREA*/
+
+.header_top{
+  padding: 10px 0;
+}
+
+.site_logo {
+  left: 10px;
+}
+
+.site_logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.site_description h2 {
+  font-size: 12px;
+}
+
+.site_description p {
+  margin-left: 43px;
+  font-size: 10px;
+}
+
+.navbar-collapse{
+  padding: 0 15px;
+}
+
+.navbar-toggle{
+  padding: 5px 5px;
+}
+
+.navbar-nav > li{
+  border-right: 0;
+  border-bottom: 1px solid #356618
+}
+
+.navbar-nav > li > a {
+  font-size: 12px;
+  padding: 5px 25px;
+}
+
+
+/*CAROUSEL AREA*/
+
+.carousel-inner .item img {
+  height: 160px;
+}
+
+.carousel-indicators .active {
+  width: 7px;
+  height: 7px;
+}
+
+.carousel-indicators li {
+  width: 6px;
+  height: 6px;
+}
+
+/*ABOUT AREA*/
+
+.about_wrapper h2, .plants_wrapper h2, .garden_wrapper h2, .blog_wrapper h2, .contact_wrapper h2 {
+  font-size: 13px;
+  line-height: 21px;
+  padding-top: 16px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+}
+
+.about_wrapper img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.about_area_content h3, .single_plant_area h3, .single_garden_area h3 {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.about_area_content p {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+
+/*BLOG AREA*/
+
+.quote_container {
+  padding: 40px 10px;
+}
+
+.quote_container > blockquote.blockquote-reverse > p {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.quote_container > blockquote > footer > cite {
+  font-size: 11px;
+  line-height: 22px;
+}
+
+.link_container span a {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.link_container p{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.blog_content header > .article_meta_comment{
+  display: none;
+}
+
+.blog_content header p.article_meta_date, .blog_content header p.article_meta_categories, .blog_content header p.article_meta_author, .blog_content header p.article_meta_views{
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.blog_content header p.article_meta_author a{
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.blog_content article p.article_meta_categories a{
+  font-size: 9px;
+  line-height: 20px;
+}
+
+.blog_content h3 a {
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.blog_content article p {
+  font-size: 11px;
+  line-height: 21px;
+}
+
+#link_format, #quote_format_link, #video_format_link{
+  display: none;
+}
+
+/*SINGLE ARTICLE */
+
+.article_author p {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.comment_area h4 {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.comments_list li article {
+  padding: 24px 10px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.comments_list li article header::before{
+  font-size: 15px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.comments_list article p.actual_comment, .comments_list article p.nested_comment {
+  font-size: 11px;
+  line-height: 19px;
+}
+
+.comments_list li article header h5 a, .comments_list li article header p a.reply {
+  font-size: 9px;
+}
+
+.comments_list li article header span{
+  font-size: 11px;
+}
+
+.comments_list li article header h5 span {
+  font-size: 7px;
+  line-height: 21px;
+  padding: 0 7px;
+}
+
+.comments_list figure.comment_avatar img {
+  width: 60px;
+  height: 60px;
+  margin: 0 0 24px 2px;
+}
+
+.comments_list li ol{
+  margin-left: 5px;
+}
+
+.comment_area .comments_nav_section p.old_comments a, .comment_area .comments_nav_section p.new_comments a {
+  font-size: 7px;
+  line-height: 25px;
+}
+
+/*CUSTOM COMMENT*/
+
+#comment_form p {
+  margin-top: 15px;
+}
+
+#comment_form input[type="submit"]{
+  font-size: 13px;
+}
+
+aside.site_sidebar{
+  margin-top: 130px;
+}
+
+.single_blog_widget {
+  padding-bottom: 5px;
+}
+
+.single_blog_widget h3 {
+  font-size: 13px;
+  padding: 8px 10px;
+  margin: 0 0px 15px 0px;
+}
+
+.single_blog_widget form .form-group input[type="text"] {
+  height: 30px;
+}
+
+.single_blog_widget ul li a {
+  font-size: 11px;
+  line-height: 15px;
+  margin-bottom: 6px;
+}
+
+.articles_nav p.articles_nav_prev a, .articles_nav p.articles_nav_next a {
+  font-size: 8px;
+  padding: 6px 8px;
+}
+
+
+/*PLANTS AREA*/
+
+.single_plant_area, .single_garden_area{
+  margin-bottom: 40px;
+}
+
+.single_plant_area figure img, .single_garden_area figure img {
+  margin-bottom: 20px;
+  height: 155px;
+}
+
+.single_plant_area p, .single_garden_area p {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+/*TIPS AREA*/
+
+.single_tips {
+  text-align: center;
+  margin-left: 0;
+  width: 185px;
+  margin-bottom: 20px;
+}
+
+.single_tips h3 a{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.single_tips p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+/*FEATURED AREA*/
+
+.singel_featured_area > .col-sm-3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.singel_featured_area > .col-sm-3:last-child{
+  margin-bottom: 0;
+}
+
+.featured_area h2 {
+  text-align: center;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.singel_featured_area figure img {
+  width: 248px;
+  height: 154px;
+}
+
+.singel_featured_area h3 a{
+  margin-bottom: 10px;
+}
+
+.singel_featured_area p{
+  line-height: 20px;
+}
+
+/*WEEKLY TIPS*/
+
+.weekly_tips_image figure img {
+  width: 169px;
+  height: 184px;
+  padding-left: 0;
+  margin: 0 11px;
+}
+
+.weekly_tips_details h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 0;
+}
+
+.weekly_tips_details ol li {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 15px 20px 0px 27px;
+}
+
+/*CONTACT AREA*/
+
+.contact_wrapper p{
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.contact_form_right {
+  margin-top: 30px;
+}
+
+.contact_info_left p{
+  font-size: 10px;
+}
+
+/*FOOTER AREA*/
+
+.singel_footer_widget{
+  text-align: center;
+}
+
+.singel_footer_widget h3{
+  font-size: 14px;
+  line-height: 30px;
+  margin: 15px 0 1px -2px ;
+}
+
+.singel_footer_widget ul.social_link {
+  padding-left: 3px;
+}
+
+.singel_footer_widget ul li a , .singel_footer_widget p{
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.copyright_info h6 {
+  font-size: 8px;
+  line-height: 18px;
+  padding: 0 15px 20px 15px;
+}
+
+
+}
+
+
+/* --------------------------------------
+	Extra Small devices (min-width: 320)
+   -------------------------------------- */
+
+@media (min-width: 320px) {
+	
+.container {
+    width: 300px;
+}
+
+/*HEADER AREA*/
+
+.header_top{
+  padding: 10px 0;
+}
+
+.site_logo {
+  left: 32px;
+}
+
+.site_logo img{
+  width: 35px;
+  height: 35px;
+}
+
+.site_description h2 {
+  font-size: 15px;
+}
+
+.site_description p {
+  margin-left: 78px;
+  font-size: 10px;
+}
+
+.navbar-collapse{
+  padding: 0 15px;
+}
+
+.navbar-toggle{
+  padding: 9px 10px;
+}
+
+.navbar-nav > li {
+  border-right: 0;
+  border-bottom: 1px solid #356618
+}
+
+.navbar-nav > li > a {
+  font-size: 12px;
+  padding: 5px 25px;
+}
+
+
+/*CAROUSEL AREA*/
+
+.carousel-inner .item img{
+  height: 250px;
+}
+
+.carousel-indicators .active {
+  width: 7px;
+  height: 7px;
+}
+
+.carousel-indicators li {
+  width: 6px;
+  height: 6px;
+}
+
+
+/*ABOUT AREA*/
+
+.about_wrapper h2, .plants_wrapper h2, .garden_wrapper h2, .blog_wrapper h2, .contact_wrapper h2 {
+  font-size: 14px;
+  line-height: 21px;
+  padding-top: 16px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+}
+
+.about_wrapper img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.about_area_content h3, .single_plant_area h3, .single_garden_area h3 {
+  font-size: 10px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+
+.about_area_content p {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+/*PLANTS AREA*/
+
+.single_plant_area, .single_garden_area{
+  margin-bottom: 40px;
+}
+
+.single_plant_area figure img, .single_garden_area figure img {
+  margin-bottom: 20px;
+  height: 230px;
+}
+
+.single_plant_area p, .single_garden_area p {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+/*BLOG AREA*/
+
+.quote_container {
+  padding: 70px 10px;
+}
+
+.quote_container > blockquote.blockquote-reverse > p{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.quote_container > blockquote > footer > cite{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.link_container span a {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.link_container p{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.blog_content header > .article_meta_comment{
+  display: block;
+}
+
+.blog_content header p.article_meta_date, .blog_content header p.article_meta_categories, .blog_content header p.article_meta_author, .blog_content header p.article_meta_views{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content header p.article_meta_author a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content article p.article_meta_categories a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content h3 a {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.blog_content article p {
+  font-size: 13px;
+  line-height: 23px;
+}
+
+#link_format, #quote_format_link, #video_format_link{
+  display: block;
+}
+
+aside.site_sidebar{
+  margin-top: 130px;
+}
+
+.single_blog_widget {
+  padding-bottom: 15px;
+}
+
+.single_blog_widget h3 {
+  font-size: 15px;
+  padding: 10px 10px;
+  margin: 0 0px 15px 0px;
+}
+
+.single_blog_widget form .form-group input[type="text"] {
+  height: 35px;
+}
+
+.single_blog_widget ul li a {
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 7px;
+}
+
+.articles_nav p.articles_nav_prev a, .articles_nav p.articles_nav_next a {
+  font-size: 11px;
+  padding: 5px 9px;
+}
+
+/*SINGLE ARTICLE */
+
+.article_author p {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.comment_area h4 {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.comments_list li article{
+  padding: 24px 32px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.comments_list li article header::before{
+  font-size: 15px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.comments_list article p.actual_comment, .comments_list article p.nested_comment {
+  font-size: 11px;
+  line-height: 19px;
+}
+
+.comments_list li article header h5 a, .comments_list li article header p a.reply {
+  font-size: 10px;
+}
+
+.comments_list li article header span {
+  font-size: 9px;
+}
+
+.comments_list li article header h5 span {
+  font-size: 7px;
+  line-height: 21px;
+  padding: 0 7px;
+}
+
+.comments_list figure.comment_avatar img {
+  width: 50px;
+  height: 50px;
+  margin: 0 0 24px 10px;
+}
+
+.comments_list li ol{
+  padding-left: 40px;
+  margin-left: 5px;
+}
+
+.comment_area .comments_nav_section p.old_comments a, .comment_area .comments_nav_section p.new_comments a {
+  font-size: 10px;
+  line-height: 25px;
+}
+
+/*CUSTOM COMMENT*/
+
+#comment_form p {
+  margin-top: 15px;
+}
+
+#comment_form input[type="submit"]{
+  font-size: 13px;
+}
+
+/*TIPS AREA*/
+
+.single_tips {
+  text-align: center;
+  margin-left: 0;
+  width: 272px;
+  margin-bottom: 20px;
+}
+
+.single_tips h3 a{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.single_tips p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+/*FEATURED AREA*/
+
+.singel_featured_area > .col-sm-3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.singel_featured_area > .col-sm-3:last-child{
+  margin-bottom: 0;
+}
+
+.featured_area h2 {
+  text-align: center;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.singel_featured_area figure img {
+  width: 248px;
+  height: 235px;
+}
+
+.singel_featured_area h3 a{
+  margin-bottom: 10px;
+}
+
+.singel_featured_area p{
+  line-height: 20px;
+}
+
+/*WEEKLY TIPS*/
+
+.weekly_tips_image figure img {
+  width: 218px;
+  height: 227px;
+  padding-left: 0;
+  margin: 0 26px;
+}
+
+.weekly_tips_details h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 0;
+}
+
+.weekly_tips_details ol li {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 15px 20px 0px 27px;
+}
+
+/*CONTACT AREA*/
+
+.contact_wrapper p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.contact_form_right {
+  margin-top: 30px;
+}
+
+.contact_info_left p{
+  font-size: 15px;
+}
+
+/*FOOTER AREA*/
+
+.singel_footer_widget{
+  text-align: center;
+}
+
+.singel_footer_widget h3{
+  font-size: 14px;
+  line-height: 30px;
+  margin: 15px 0 1px -2px ;
+}
+
+.singel_footer_widget ul.social_link {
+  padding-left: 43px;
+}
+
+.singel_footer_widget ul li a , .singel_footer_widget p{
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.copyright_info h6 {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 15px 15px 15px;
+}
+
+
+}
+
+
+/* --------------------------------------
+	Extra Small devices (min-width: 480)
+   -------------------------------------- */
+
+@media (min-width: 480px) {
+	
+.container {
+    width: 450px;
+}
+
+/*HEADER AREA*/
+
+.header_top{
+  padding: 10px 0;
+}
+
+.site_logo {
+  left: 77px;
+}
+
+.site_logo img{
+  width: 40px;
+  height: 40px;
+}
+
+.site_description h2 {
+  font-size: 20px;
+}
+
+.site_description p {
+  margin-left: 114px;
+  font-size: 12px;
+}
+
+.navbar-collapse{
+  padding: 0 15px;
+}
+
+.navbar-toggle{
+  padding: 9px 10px;
+}
+
+.navbar-nav > li {
+  border-right: 0;
+  border-bottom: 1px solid #356618
+}
+
+.navbar-nav > li > a {
+  font-size: 12px;
+  padding: 5px 25px;
+}
+
+
+/*CAROUSEL AREA*/
+
+.carousel-inner .item img{
+  height: 300px;
+}
+
+.carousel-indicators .active {
+  width: 7px;
+  height: 7px;
+}
+
+.carousel-indicators li {
+  width: 6px;
+  height: 6px;
+}
+
+/*ABOUT AREA*/
+
+.about_wrapper h2, .plants_wrapper h2, .garden_wrapper h2, .blog_wrapper h2, .contact_wrapper h2 {
+  font-size: 18px;
+  line-height: 28px;
+  padding-top: 21px;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.about_wrapper img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.about_area_content h3, .single_plant_area h3, .single_garden_area h3 {
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+
+.about_area_content p {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+/*PLANTS AREA*/
+
+.single_plant_area, .single_garden_area{
+  margin-bottom: 40px;
+}
+
+.single_plant_area figure img, .single_garden_area figure img {
+  margin-bottom: 20px;
+  height: 265px;
+}
+
+.single_plant_area p, .single_garden_area p {
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 12px;
+}
+
+/*BLOG AREA*/
+
+.quote_container {
+  padding: 70px 10px;
+}
+
+.quote_container > blockquote.blockquote-reverse > p{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.quote_container > blockquote > footer > cite{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.link_container span a{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.link_container p{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.blog_content header > .article_meta_comment{
+  display: block;
+}
+
+.blog_content header p.article_meta_date, .blog_content header p.article_meta_categories, .blog_content header p.article_meta_author, .blog_content header p.article_meta_views{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+
+.blog_content header p.article_meta_author a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content article p.article_meta_categories a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content h3 a {
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.blog_content article p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+#link_format, #quote_format_link, #video_format_link{
+  display: block;
+}
+
+aside.site_sidebar{
+  margin-top: 130px;
+}
+
+.single_blog_widget {
+  padding-bottom: 30px;
+}
+
+.single_blog_widget h3 {
+  font-size: 15px;
+  padding: 10px 10px;
+  margin: 0 0px 15px 0px;
+}
+
+.single_blog_widget form .form-group input[type="text"] {
+  height: 35px;
+}
+
+.single_blog_widget ul li a {
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 7px;
+}
+
+.articles_nav p.articles_nav_prev a, .articles_nav p.articles_nav_next a{
+  font-size: 13px;
+  padding: 7px 21px;
+}
+
+/*SINGLE ARTICLE */
+
+.article_author p {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.comment_area h4 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.comments_list li article{
+  padding: 24px 32px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.comments_list li article header::before{
+  font-size: 25px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.comments_list article p.actual_comment, .comments_list article p.nested_comment {
+  font-size: 11px;
+  line-height: 19px;
+}
+
+.comments_list li article header h5 a, .comments_list li article header p a.reply {
+  font-size: 10px;
+}
+
+.comments_list li article header span{
+  font-size: 11px;
+}
+
+.comments_list li article header h5 span {
+  font-size: 7px;
+  line-height: 21px;
+  padding: 0 7px;
+}
+
+.comments_list figure.comment_avatar img {
+  width: 75px;
+  height: 70px;
+  margin: 0 0 24px 20px;
+}
+
+.comments_list li ol {
+  padding-left: 41px;
+  margin-left: 12px;
+}
+
+.comment_area .comments_nav_section p.old_comments a, .comment_area .comments_nav_section p.new_comments a {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+
+/*CUSTOM COMMENT*/
+
+#comment_form p {
+  margin-top: 15px;
+}
+
+#comment_form input[type="submit"]{
+  font-size: 13px;
+}
+
+/*TIPS AREA*/
+
+.single_tips {
+  text-align: center;
+  margin-left: 0;
+  width: 420px;
+  margin-bottom: 20px;
+}
+
+.single_tips h3 a{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.single_tips p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+/*FEATURED AREA*/
+
+.singel_featured_area > .col-sm-3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.singel_featured_area > .col-sm-3:last-child{
+  margin-bottom: 0;
+}
+
+.featured_area h2 {
+  text-align: center;
+  font-size: 22px;
+  line-height: 21px;
+}
+
+.singel_featured_area figure img{
+  width: 248px;
+  height: 248px;
+}
+
+.singel_featured_area h3 a{
+  margin-bottom: 10px;
+}
+
+.singel_featured_area p{
+  line-height: 20px;
+}
+
+/*WEEKLY TIPS*/
+
+.weekly_tips_image figure img {
+  width: 356px;
+  height: 300px;
+  padding-left: 0;
+  margin: 0 32px;
+}
+
+.weekly_tips_details h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 0;
+}
+
+.weekly_tips_details ol li {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 15px 20px 0px 27px;
+}
+
+/*CONTACT AREA*/
+
+.contact_wrapper p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.contact_form_right {
+  margin-top: 30px;
+}
+
+.contact_info_left p{
+  font-size: 15px;
+}
+
+/*FOOTER AREA*/
+
+.singel_footer_widget{
+  text-align: center;
+}
+
+.singel_footer_widget h3{
+  font-size: 14px;
+  line-height: 30px;
+  margin: 15px 0 1px -2px ;
+}
+
+.singel_footer_widget ul.social_link{
+  padding-left: 117px;
+}
+
+.singel_footer_widget ul li a , .singel_footer_widget p{
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.copyright_info h6 {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 15px 15px 15px;
+}
+
+
+}
+
+
+/* --------------------------------------
+	Extra Small devices (min-width: 640)
+   -------------------------------------- */
+   
+@media (min-width: 640px) {
+	
+.container {
+    width: 600px;
+}
+
+/*HEADER AREA*/
+
+.header_top{
+  padding: 10px 0;
+}
+
+.site_logo {
+  left: 117px;
+}
+
+.site_logo img{
+  width: 50px;
+  height: 50px;
+}
+
+.site_description h2 {
+  font-size: 25px;
+}
+
+.site_description p {
+  margin-left: 126px;
+  font-size: 17px;
+}
+
+.navbar-collapse{
+  padding: 0 15px;
+}
+
+.navbar-toggle{
+  padding: 9px 10px;
+}
+
+.navbar-nav > li {
+  border-right: 0;
+  border-bottom: 1px solid #356618;
+}
+
+.navbar-nav > li > a {
+  font-size: 12px;
+  padding: 5px 25px;
+}
+
+
+/*CAROUSEL AREA*/
+
+.carousel-inner .item img{
+  height: 300px;
+}
+
+.carousel-indicators .active {
+  width: 7px;
+  height: 7px;
+}
+
+.carousel-indicators li {
+  width: 6px;
+  height: 6px;
+}
+
+/*ABOUT AREA*/
+
+.about_wrapper h2, .plants_wrapper h2, .garden_wrapper h2, .blog_wrapper h2, .contact_wrapper h2 {
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 23px;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.about_wrapper img{
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.about_area_content h3, .single_plant_area h3, .single_garden_area h3 {
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+
+.about_area_content p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/*PLANTS AREA*/
+
+.single_plant_area, .single_garden_area{
+  margin-bottom: 40px;
+}
+
+.single_plant_area figure img, .single_garden_area figure img {
+  margin-bottom: 20px;
+  height: 265px;
+}
+
+.single_plant_area p, .single_garden_area p {
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 12px;
+}
+
+/*BLOG AREA*/
+
+.blog_content > .col-sm-8{
+  border-right: 0;
+}
+
+.blog_content header > .article_meta_comment{
+  display: block;
+}
+
+.blog_content article p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.blog_content header p.article_meta_date, .blog_content header p.article_meta_categories, .blog_content header p.article_meta_author, .blog_content header p.article_meta_views{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content header p.article_meta_author a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.quote_container {
+  padding: 70px 10px;
+}
+
+.quote_container > blockquote.blockquote-reverse > p{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.quote_container > blockquote > footer > cite{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.link_container span a{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.link_container p{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.blog_content article p.article_meta_categories a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content h3 a {
+  font-size: 17px;
+  line-height: 29px;
+}
+
+#link_format, #quote_format_link, #video_format_link{
+  display: block;
+}
+
+aside.site_sidebar{
+  margin-top: 130px;
+}
+
+.single_blog_widget {
+  padding-bottom: 30px;
+}
+
+.single_blog_widget h3 {
+  font-size: 15px;
+  padding: 10px 10px;
+  margin: 0 0px 15px 0px;
+}
+
+.single_blog_widget form .form-group input[type="text"] {
+  height: 35px;
+}
+
+.single_blog_widget ul li a {
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 7px;
+}
+
+.articles_nav p.articles_nav_prev a, .articles_nav p.articles_nav_next a{
+  font-size: 13px;
+  padding: 7px 21px;
+}
+
+/*SINGLE ARTICLE */
+
+.article_author p {
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.comment_area h4 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.comments_list li article{
+  padding: 24px 32px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.comments_list li article header::before{
+  font-size: 30px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.comments_list article p.actual_comment , .comments_list article p.nested_comment{
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.comments_list li article header h5 a, .comments_list li article header p a.reply {
+  font-size: 10px;
+}
+
+.comments_list li article header span{
+  font-size: 11px;
+}
+
+.comments_list li article header h5 span {
+  font-size: 10px;
+  line-height: 21px;
+  padding: 0 7px;
+}
+
+.comments_list figure.comment_avatar img {
+  width: 75px;
+  height: 70px;
+  margin: 0 0 24px 20px;
+}
+
+.comments_list li ol{
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+.comment_area .comments_nav_section p.old_comments a, .comment_area .comments_nav_section p.new_comments a {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+/*CUSTOM COMMENT*/
+
+#comment_form p {
+  margin-top: 20px;
+}
+
+#comment_form input[type="submit"]{
+  font-size: 13px;
+}
+
+/*TIPS AREA*/
+
+.single_tips {
+  text-align: center;
+  margin-left: 0;
+  width: 570px;
+  margin-bottom: 20px;
+}
+
+.single_tips h3 a{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.single_tips p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+/*FEATURED AREA*/
+
+.singel_featured_area > .col-sm-3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.singel_featured_area > .col-sm-3:last-child{
+  margin-bottom: 0;
+}
+
+.featured_area h2 {
+  text-align: center;
+  font-size: 22px;
+  line-height: 21px;
+}
+
+.singel_featured_area figure img{
+  width: 248px;
+  height: 248px;
+}
+
+.singel_featured_area h3 a{
+  margin-bottom: 10px;
+}
+
+.singel_featured_area p{
+  line-height: 20px;
+}
+
+/*WEEKLY TIPS*/
+
+.weekly_tips_image figure img {
+  width: 371px;
+  height: 282px;
+  padding-left: 0;
+  margin: 0 101px;
+}
+
+.weekly_tips_details h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 0;
+}
+
+.weekly_tips_details ol li {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 15px 20px 0px 27px;
+}
+
+/*CONTACT AREA*/
+
+.contact_wrapper p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.contact_form_right {
+  margin-top: 30px;
+}
+
+.contact_info_left p{
+  font-size: 15px;
+}
+
+/*FOOTER AREA*/
+
+.singel_footer_widget{
+  text-align: center;
+}
+
+.singel_footer_widget h3{
+  font-size: 14px;
+  line-height: 30px;
+  margin: 15px 0 1px -2px ;
+}
+
+.singel_footer_widget ul.social_link{
+  padding-left: 194px;
+}
+
+.singel_footer_widget ul li a , .singel_footer_widget p{
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.copyright_info h6 {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 15px 15px 15px;
+}
+
+}
+
+  
+/* --------------------------------------
+  Small devices (tablets, 768px and up)
+   -------------------------------------- */
+   
+@media (min-width: 768px) {
+
+.container {
+    width: 750px;
+}
+
+/*HEADER AREA*/
+
+.header_top{
+  padding: 10px 0;
+}
+
+.site_logo {
+  left: 146px;
+}
+
+.site_logo img{
+  width: 60px;
+  height: 60px;
+}
+
+.site_description h2 {
+  font-size: 30px;
+}
+
+.site_description p {
+  margin-left: 192px;
+  font-size: 17px;
+}
+
+.navbar-collapse{
+  padding: 0;
+}
+
+.navbar-nav > li {
+  border-right: 1px solid #356618;
+  border-bottom: 0;
+}
+
+.navbar-nav > li > a {
+  font-size: 12px;
+  padding: 11px 25px;
+}
+
+
+/*CAROUSEL AREA*/
+
+.carousel-inner .item img{
+  height: 320px;
+}
+
+.carousel-indicators .active {
+  width: 9px;
+  height: 9px;
+}
+
+.carousel-indicators li {
+  width: 7px;
+  height: 7px;
+}
+
+/*ABOUT AREA*/
+
+.about_wrapper h2, .plants_wrapper h2, .garden_wrapper h2, .blog_wrapper h2, .contact_wrapper h2{
+  font-size: 24px;
+  line-height: 34px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.about_wrapper img{
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+.about_area_content h3, .single_plant_area h3, .single_garden_area h3 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.about_area_content p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/*PLANTS AREA*/
+
+.single_plant_area, .single_garden_area{
+  margin-bottom: 40px;
+}
+
+.single_plant_area figure img, .single_garden_area figure img {
+  margin-bottom: 17px;
+  height: 265px;
+}
+
+.single_plant_area p, .single_garden_area p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 12px;
+}
+
+/*BLOG AREA*/
+
+.blog_content > .col-sm-8{
+  border-right: 2px solid #A9C09B;
+}
+
+.blog_content header > .article_meta_comment{
+  display: block;
+}
+
+.blog_content header p.article_meta_date, .blog_content header p.article_meta_categories, .blog_content header p.article_meta_author, .blog_content header p.article_meta_views{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content header p.article_meta_author a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content article p.article_meta_categories a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content h3 a {
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.blog_content article p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.blog_content article figure img{
+  height: 350px;
+  width: 725px;
+}
+
+.article_author p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.quote_container {
+  padding: 70px 10px;
+}
+
+.quote_container > blockquote.blockquote-reverse > p{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.quote_container > blockquote > footer > cite{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.link_container span a{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.link_container p{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+#link_format, #quote_format_link, #video_format_link{
+  display: block;
+}
+
+aside.site_sidebar{
+  margin-top: 0;
+}
+
+.single_blog_widget {
+  padding-bottom: 30px;
+}
+
+.single_blog_widget h3 {
+  font-size: 15px;
+  padding: 10px 10px;
+  margin: 0 0px 15px 0px;
+}
+
+.single_blog_widget form .form-group input[type="text"] {
+  height: 35px;
+}
+
+.single_blog_widget ul li a {
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 7px;
+}
+
+.articles_nav p.articles_nav_prev a, .articles_nav p.articles_nav_next a{
+  font-size: 13px;
+  padding: 7px 21px;
+}
+
+/*SINGLE ARTICLE */
+
+.article_author p {
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.comment_area h4 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.comments_list li article{
+  padding: 24px 32px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.comments_list li article header::before{
+  font-size: 35px;
+}
+
+.comments_list article p.awaiting_moderation {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.comments_list article p.actual_comment , .comments_list article p.nested_comment{
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.comments_list li article header h5 a, .comments_list li article header p a.reply {
+  font-size: 10px;
+}
+
+.comments_list li article header span{
+  font-size: 11px;
+}
+
+.comments_list li article header h5 span {
+  font-size: 10px;
+  line-height: 21px;
+  padding: 0 7px;
+}
+
+.comments_list figure.comment_avatar img {
+  width: 75px;
+  height: 70px;
+  margin: 0 0 24px 20px;
+}
+
+.comments_list li ol{
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+.comment_area .comments_nav_section p.old_comments a, .comment_area .comments_nav_section p.new_comments a {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+
+/*CUSTOM COMMENT*/
+
+#comment_form p {
+  margin-top: 15px;
+}
+
+#comment_form input[type="submit"]{
+  font-size: 13px;
+}
+
+
+/*TIPS AREA*/
+
+.single_tips{
+  width: 240px;
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.single_tips h3 a{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.single_tips p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.single_tips figure img{
+  float: none;
+  margin-right: 0;
+}
+
+/*FEATURED AREA*/
+
+.singel_featured_area > .col-sm-3{
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.featured_area h2 {
+  text-align: left;
+  font-size: 22px;
+  line-height: 21px;
+}
+
+.singel_featured_area figure img{
+  width: 150px;
+  height: 150px;
+}
+
+.singel_featured_area h3 a {
+  font-size: 13px;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+
+.singel_featured_area p {
+  font-size: 12px;
+  line-height: 19px;
+}
+
+/*WEEKLY TIPS AREA*/
+
+.weekly_tips_image figure img {
+  width: 219px;
+  height: 209px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.weekly_tips_details h3{
+  text-align: left;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.weekly_tips_details ol li{
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 20px 9px 16px;
+}
+
+/*CONTACT AREA*/
+
+.contact_wrapper p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.contact_form_right {
+  margin-top: 0;
+}
+
+.contact_info_left p{
+  font-size: 15px;
+}
+
+/*FOOTER AREA*/
+
+.singel_footer_widget{
+  text-align: left;
+}
+
+.singel_footer_widget h3{
+  font-size: 14px;
+  line-height: 30px;
+  margin: 15px 0 1px -2px ;
+}
+
+.singel_footer_widget ul.social_link{
+  padding-left: 0;
+}
+
+.singel_footer_widget ul li a , .singel_footer_widget p{
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.copyright_info h6 {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 15px 15px 15px;
+}
+
+
+}
+
+
+
+/* --------------------------------------
+	Medium devices (desktops, 992px and up) 
+   -------------------------------------- */
+   
+   
+@media (min-width: 992px) {
+
+.container {
+    width: 970px;
+}
+
+/*HEADER AREA*/
+
+.header_top{
+  padding: 20px 0;
+}
+
+.site_logo {
+  left: 183px;
+}
+
+.site_logo img{
+  width: 82px;
+  height: 82px;
+}
+
+.site_description h2 {
+  font-size: 44px;
+}
+
+.site_description p{
+  margin-left: 358px;
+  font-size: 17px;
+}
+
+.navbar-collapse{
+  padding: 0;
+}
+
+.navbar-nav > li{
+  border-right: 1px solid #356618;
+  border-bottom: 0;
+}
+
+.navbar-nav > li > a {
+  font-size: 14px;
+  padding: 11px 34px;
+}
+
+.carousel-inner .item img{
+  height: 350px;
+}
+
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+}
+
+/*ABOUT AREA*/
+
+.about_wrapper h2, .plants_wrapper h2, .garden_wrapper h2, .blog_wrapper h2, .contact_wrapper h2{
+  font-size: 24px;
+  line-height: 34px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.about_wrapper img{
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.about_area_content h3 , .single_plant_area h3, .single_garden_area h3{
+  font-size: 17px;
+  line-height: 29px;
+  margin-bottom: 4px;
+}
+
+.about_area_content p{
+  font-size: 15px;
+  line-height: 28px;
+}
+
+/*PLANTS AREA*/
+
+.single_plant_area, .single_garden_area{
+  margin-bottom: 60px;
+}
+
+.single_plant_area figure img, .single_garden_area figure img {
+  margin-bottom: 0;
+  height: 265px;
+}
+
+.single_plant_area p, .single_garden_area p {
+  font-size: 14px;
+  line-height: 27px;
+  padding-left: 2px;
+  margin-bottom: 12px;
+}
+
+/*BLOG AREA*/
+
+.blog_content > .col-sm-8{
+  border-right: 2px solid #A9C09B;
+}
+
+.blog_content header > .article_meta_comment{
+  display: block;
+}
+
+.blog_content article p.article_meta_categories a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content header p.article_meta_date, .blog_content header p.article_meta_categories, .blog_content header p.article_meta_author, .blog_content header p.article_meta_views{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content header p.article_meta_author a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content h3 a {
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.blog_content article p{
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.blog_content article figure img{
+  height: 400px;
+  width: 725px;
+}
+
+/*SINGLE ARTICLE */
+
+.article_author p{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.comment_area h4 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.comments_list li article{
+  padding: 24px 32px;
+}
+
+.comments_list li article header{
+  font-size: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 15px;
+}
+
+.comments_list li article header::before{
+  font-size: 40px;
+}
+
+.comments_list article p.awaiting_moderation{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.comments_list article p.actual_comment , .comments_list article p.nested_comment{
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.comments_list li article header h5 a, .comments_list li article header p a.reply{
+  font-size: 11px;
+}
+
+.comments_list li article header span{
+  font-size: 11px;
+}
+
+.comments_list li article header h5 span {
+  font-size: 10px;
+  line-height: 21px;
+  padding: 0 10px;
+}
+
+.comments_list figure.comment_avatar img {
+  width: 75px;
+  height: 70px;
+  margin: 0 0 24px 20px;
+}
+
+.comments_list li ol{
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+.comment_area .comments_nav_section p.old_comments a, .comment_area .comments_nav_section p.new_comments a{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/*CUSTOM COMMENT*/
+
+#comment_form p {
+  margin-top: 15px;
+}
+
+#comment_form input[type="submit"]{
+  font-size: 13px;
+}
+
+.quote_container {
+  padding: 70px 10px;
+}
+
+.quote_container > blockquote.blockquote-reverse > p{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.quote_container > blockquote > footer > cite{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.link_container span a{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.link_container p{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+#link_format, #quote_format_link, #video_format_link{
+  display: block;
+}
+
+aside.site_sidebar{
+  margin-top: 0;
+}
+
+.single_blog_widget {
+  padding-bottom: 30px;
+}
+
+.single_blog_widget h3 {
+  font-size: 18px;
+  padding: 12px 10px;
+  margin: 0 0px 15px 0px;
+}
+
+.single_blog_widget form .form-group input[type="text"] {
+  height: 40px;
+}
+
+.single_blog_widget ul li a {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.articles_nav p.articles_nav_prev a, .articles_nav p.articles_nav_next a{
+  font-size: 13px;
+  padding: 7px 21px;
+}
+
+
+/*TIPS AREA*/
+
+.single_tips{
+  width: 293px;
+  text-align: left;
+  margin-left: 20px;
+  border-right: 2px solid #74975F;
+  margin-bottom: 0;
+}
+
+.single_tips:last-child{
+  border-right: 0;
+}
+
+.single_tips h3 a{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.single_tips p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.single_tips figure img{
+  float: left;
+  margin-right: 15px;
+}
+
+/*FEATURED AREA*/
+
+.singel_featured_area > .col-sm-3{
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.featured_area h2 {
+  text-align: left;
+  font-size: 22px;
+  line-height: 21px;
+}
+
+.singel_featured_area figure img{
+  width: 200px;
+  height: 200px;
+}
+
+.singel_featured_area h3 a {
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.singel_featured_area p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*WEEKLY TIPS AREA*/
+
+.weekly_tips_image figure img {
+  width: 371px;
+  height: 282px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.weekly_tips_details h3{
+  text-align: left;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.weekly_tips_details ol li{
+  font-size: 17px;
+  line-height: 25px;
+  margin: 0 20px 12px 16px;
+}
+
+/*CONTACT AREA*/
+
+.contact_wrapper p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.contact_form_right {
+  margin-top: 0;
+}
+
+.contact_info_left p{
+  font-size: 15px;
+}
+
+/*FOOTER AREA*/
+
+.singel_footer_widget{
+  text-align: left;
+}
+
+.singel_footer_widget h3{
+  font-size: 18px;
+  line-height: 30px;
+  margin: 15px 0 4px -2px ;
+}
+
+.singel_footer_widget ul.social_link{
+  padding-left: 0;
+}
+
+.singel_footer_widget ul li a , .singel_footer_widget p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.copyright_info h6{
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 15px 15px 15px;
+}
+  
+}
+
+
+/* --------------------------------------
+	Large devices (large desktops, 1200px and up) 
+   -------------------------------------- */
+
+@media (min-width: 1200px) {
+
+.container {
+    width: 1170px;
+}
+
+/*HEADER AREA*/
+
+.header_top{
+  padding: 20px 0;
+}
+
+.site_logo {
+  left: 273px;
+}
+
+.site_logo img{
+  width: 82px;
+  height: 82px;
+}
+
+.site_description h2 {
+  font-size: 44px;
+}
+
+.site_description p{
+  margin-left: 358px;
+  font-size: 17px;
+}
+
+.navbar-collapse{
+  padding: 0;
+}
+
+.navbar-nav > li{
+  border-right: 1px solid #356618;
+  border-bottom: 0;
+}
+
+.navbar-nav > li > a{
+  font-size: 15px;
+  padding: 12px 45px;
+}
+
+.carousel-inner .item img{
+  height: 450px;
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+}
+
+/*ABOUT AREA*/
+
+.about_wrapper h2, .plants_wrapper h2, .garden_wrapper h2, .blog_wrapper h2, .contact_wrapper h2{
+  font-size: 24px;
+  line-height: 34px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.about_wrapper img{
+  height: 560px;
+  margin-bottom: 50px;
+}
+
+.about_area_content h3 , .single_plant_area h3, .single_garden_area h3{
+  font-size: 17px;
+  line-height: 29px;
+  margin-bottom: 4px;
+}
+
+.about_area_content p{
+  font-size: 15px;
+  line-height: 28px;
+}
+
+/*PLANTS AREA*/
+
+.single_plant_area, .single_garden_area{
+  margin-bottom: 60px;
+}
+
+.single_plant_area figure img, .single_garden_area figure img {
+  margin-bottom: 0;
+  height: 265px;
+}
+
+.single_plant_area p , .single_garden_area p{
+  font-size: 15px;
+  line-height: 28px;
+  padding-left: 2px;
+  margin-bottom: 12px;
+}
+
+/*BLOG AREA*/
+
+.blog_content > .col-sm-8{
+  border-right: 2px solid #A9C09B;
+}
+
+.blog_content header > .article_meta_comment{
+  display: block;
+}
+
+.blog_content article p.article_meta_categories a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content header p.article_meta_date, .blog_content header p.article_meta_categories, .blog_content header p.article_meta_author, .blog_content header p.article_meta_views{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content header p.article_meta_author a{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blog_content article figure img{
+  height: 459px;
+  width: 725px;
+}
+
+.blog_content h3 a {
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.blog_content article p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+/* SINGLE ARTICLE */
+
+.article_author p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.comment_area h4 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.comments_list li article{
+  padding: 24px 32px;
+}
+
+.comments_list li article header{
+  font-size: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 25px;
+}
+
+.comments_list li article header::before{
+  font-size: 46px;
+}
+
+.comments_list li article header h5 a, .comments_list li article header p a.reply{
+  font-size: 12px;
+}
+
+.comments_list article p.awaiting_moderation{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.comments_list article p.actual_comment, .comments_list article p.nested_comment{
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.comments_list li article header span{
+  font-size: 12px;
+}
+
+.comments_list li article header h5 span{
+  font-size: 10px;
+  line-height: 21px;
+  padding: 0 16px;
+}
+
+.comments_list figure.comment_avatar img {
+  width: 81px;
+  height: 78px;
+  margin: 0 0 24px 32px;
+  
+}
+
+.comments_list li ol{
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+.comment_area .comments_nav_section p.old_comments a, .comment_area .comments_nav_section p.new_comments a{
+  font-size: 17px;
+  line-height: 27px;
+}
+
+/*CUSTOM COMMENT*/
+
+#comment_form p {
+  margin-top: 20px;
+}
+
+#comment_form input[type="submit"]{
+  font-size: 15px;
+}
+
+.quote_container{
+  padding: 100px 10px;
+}
+
+.quote_container > blockquote.blockquote-reverse > p{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.quote_container > blockquote > footer > cite{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.link_container p{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.link_container span a{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+#link_format, #quote_format_link, #video_format_link{
+  display: block;
+}
+
+aside.site_sidebar{
+  margin-top: 0;
+}
+
+.single_blog_widget {
+  padding-bottom: 30px;
+}
+
+.single_blog_widget h3{
+  font-size: 22px;
+  padding: 15px 10px;
+  margin: 0 3px 20px 1px;
+}
+
+.single_blog_widget form .form-group input[type="text"] {
+  height: 50px;
+}
+
+.single_blog_widget ul li a {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.articles_nav p.articles_nav_prev a, .articles_nav p.articles_nav_next a{
+  font-size: 13px;
+  padding: 7px 21px;
+}
+
+
+/*Tips AREA*/
+
+.single_tips{
+  width: 360px;
+  text-align: left;
+  margin-left: 20px;
+  border-right: 2px solid #74975F;
+  margin-bottom: 0;
+}
+
+.single_tips:last-child{
+  border-right: 0;
+}
+
+.single_tips h3 a{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.single_tips p{
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.single_tips figure img{
+  float: left;
+  margin-right: 15px;
+}
+
+/*FEATURED AREA*/
+
+.singel_featured_area > .col-sm-3{
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.featured_area h2 {
+  text-align: left;
+  font-size: 22px;
+  line-height: 21px;
+}
+
+.singel_featured_area figure img{
+  width: 248px;
+  height: 248px;
+}
+
+.singel_featured_area h3 a{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.singel_featured_area p{
+  font-size: 15px;
+  line-height: 24px;
+}
+
+
+
+/*WEEKLY TIPS AREA*/
+
+.weekly_tips_image figure img {
+  width: 371px;
+  height: 282px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.weekly_tips_details h3{
+  text-align: left;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.weekly_tips_details ol li{
+  font-size: 17px;
+  line-height: 25px;
+  margin: 0 20px 12px 16px;
+}
+
+/*CONTACT AREA*/
+
+.contact_wrapper p{
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.contact_form_right {
+  margin-top: 0;
+}
+
+.contact_info_left p{
+  font-size: 15px;
+}
+
+
+/*FOOTER AREA*/
+
+.singel_footer_widget{
+  text-align: left;
+}
+
+.singel_footer_widget h3{
+  font-size: 18px;
+  line-height: 30px;
+  margin: 15px 0 4px -2px ;
+}
+
+.singel_footer_widget ul.social_link{
+  padding-left: 0;
+}
+
+.singel_footer_widget ul li a, .singel_footer_widget p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.copyright_info h6{
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 15px 15px 15px;
+}
+
+  
+}
+
